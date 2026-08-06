@@ -1,0 +1,179 @@
+{
+  "generated_at": "2026-08-06T16:28:49.570289+00:00",
+  "question_count": 10,
+  "accuracy": 1.0,
+  "mean_citation_recall": 1.0,
+  "mean_citation_precision": 1.0,
+  "mean_keyword_coverage": 0.8,
+  "hallucination_flag_count": 0,
+  "rows": [
+    {
+      "question_id": "Q01",
+      "question": "What drove Aurora Microdevices' gross-margin improvement and what full-year growth outlook did it give?",
+      "expected_article_ids": [
+        "A001"
+      ],
+      "cited_article_ids": [
+        "A001"
+      ],
+      "citation_recall": 1.0,
+      "citation_precision": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": true,
+      "passed": true,
+      "hallucination_flags": [],
+      "answer": "Gross margin improved to 57% from 53% a year earlier because higher-margin accelerator products represented a larger share of sales. [A001] The company raised its full-year revenue growth outlook to 14% to 16%, from a previous range of 9% to 11%. [A001] Aurora Microdevices reported second-quarter revenue of $4.8 billion, up 18% from a year earlier, as demand for its Orion data-center accelerators exceeded internal forecasts. [A001]"
+    },
+    {
+      "question_id": "Q02",
+      "question": "Why did Northstar Cloud reduce its free-cash-flow forecast even though it maintained revenue guidance?",
+      "expected_article_ids": [
+        "A002"
+      ],
+      "cited_article_ids": [
+        "A002"
+      ],
+      "citation_recall": 1.0,
+      "citation_precision": 1.0,
+      "keyword_coverage": 0.667,
+      "abstention_correct": true,
+      "passed": true,
+      "hallucination_flags": [],
+      "answer": "Northstar maintained its revenue-growth forecast of 20% to 22% but reduced expected free cash flow to $1.4 billion to $1.8 billion from $2.3 billion to $2.7 billion. [A002] Northstar Cloud said quarterly cloud-platform revenue rose 24% to $6.2 billion, supported by demand for generative-AI training and inference services. [A002] The company increased its 2026 capital-expenditure plan to between $11 billion and $12 billion from $8.5 billion, mainly for graphics processors, networking equipment, and two new data centers. [A002]"
+    },
+    {
+      "question_id": "Q03",
+      "question": "What caused GreenGrid's Seabreeze delay, and how much additional cost does it expect?",
+      "expected_article_ids": [
+        "A003"
+      ],
+      "cited_article_ids": [
+        "A003"
+      ],
+      "citation_recall": 1.0,
+      "citation_precision": 1.0,
+      "keyword_coverage": 0.667,
+      "abstention_correct": true,
+      "passed": true,
+      "hallucination_flags": [],
+      "answer": "GreenGrid expects the delay to add approximately $180 million to project costs, taking the current budget to about $2.4 billion. [A003] GreenGrid Energy postponed commercial operation of its Seabreeze offshore wind project from June 2027 to January 2028. [A003] The company has not changed the project's planned generating capacity of 900 megawatts. [A003]"
+    },
+    {
+      "question_id": "Q04",
+      "question": "How did Harbor Retail's inventory, comparable sales, and earnings guidance change?",
+      "expected_article_ids": [
+        "A004"
+      ],
+      "cited_article_ids": [
+        "A004"
+      ],
+      "citation_recall": 1.0,
+      "citation_precision": 1.0,
+      "keyword_coverage": 0.667,
+      "abstention_correct": true,
+      "passed": true,
+      "hallucination_flags": [],
+      "answer": "Harbor raised full-year adjusted earnings guidance to $3.40 to $3.60 per share from $3.05 to $3.25. [A004] Harbor Retail reported comparable-store sales growth of 6.1% for the quarter, above the company's prior expectation of 2% to 4%. [A004] Online sales rose 13%, while store traffic increased 4%. [A004]"
+    },
+    {
+      "question_id": "Q05",
+      "question": "What evidence in the articles points to increasing credit risk at Meridian Bank?",
+      "expected_article_ids": [
+        "A005"
+      ],
+      "cited_article_ids": [
+        "A005"
+      ],
+      "citation_recall": 1.0,
+      "citation_precision": 1.0,
+      "keyword_coverage": 0.667,
+      "abstention_correct": true,
+      "passed": true,
+      "hallucination_flags": [],
+      "answer": "Net interest income declined 5% to $1.7 billion because deposit funding costs increased faster than yields on loans. [A005] Meridian Bank increased its quarterly provision for credit losses to $420 million from $190 million a year earlier. [A005] The bank said the increase was concentrated in commercial real-estate loans, particularly older office properties in three metropolitan markets. [A005]"
+    },
+    {
+      "question_id": "Q06",
+      "question": "Did Vertex Mobility beat delivery guidance, and why was its battery plant delayed?",
+      "expected_article_ids": [
+        "A006"
+      ],
+      "cited_article_ids": [
+        "A006"
+      ],
+      "citation_recall": 1.0,
+      "citation_precision": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": true,
+      "passed": true,
+      "hallucination_flags": [],
+      "answer": "Vertex Mobility delivered 86,400 electric vehicles during the second quarter, exceeding its guidance of 78,000 to 82,000 vehicles. [A006] Vertex delayed the opening of its Nevada battery-cell plant from March 2027 to September 2027 because installation of dry-electrode production equipment is taking longer than planned. [A006] The company maintained its full-year delivery target of 330,000 to 350,000 vehicles and said existing suppliers can cover the delayed plant's initial production gap. [A006]"
+    },
+    {
+      "question_id": "Q07",
+      "question": "What were the main results of Cedar Pharma's LUMEN study and when does it plan regulatory submissions?",
+      "expected_article_ids": [
+        "A007"
+      ],
+      "cited_article_ids": [
+        "A007"
+      ],
+      "citation_recall": 1.0,
+      "citation_precision": 1.0,
+      "keyword_coverage": 0.667,
+      "abstention_correct": true,
+      "passed": true,
+      "hallucination_flags": [],
+      "answer": "Cedar Pharma said its Phase 3 LUMEN study of CDR-201 met its primary endpoint in adults with a chronic inflammatory skin condition. [A007] At week 16, 48% of patients receiving CDR-201 achieved the study's response threshold compared with 27% receiving placebo. [A007] The most frequently reported adverse events were headache and mild injection-site reactions; the article did not report a treatment-related death. [A007]"
+    },
+    {
+      "question_id": "Q08",
+      "question": "How did flooding change Stonebridge Mining's copper production and cash-cost guidance?",
+      "expected_article_ids": [
+        "A008"
+      ],
+      "cited_article_ids": [
+        "A008"
+      ],
+      "citation_recall": 1.0,
+      "citation_precision": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": true,
+      "passed": true,
+      "hallucination_flags": [],
+      "answer": "Stonebridge raised expected copper cash costs to $1.92 to $2.02 per pound from $1.70 to $1.80 because of lower production volumes, pumping expenses, and temporary ore purchases. [A008] Gold-production guidance was unchanged. [A008] Stonebridge Mining lowered its 2026 copper-production forecast to 710,000 to 740,000 metric tons from 760,000 to 790,000 metric tons after flooding disrupted its Andean Ridge operation. [A008]"
+    },
+    {
+      "question_id": "Q09",
+      "question": "Compare the main operational constraints described for Aurora Microdevices and Northstar Cloud.",
+      "expected_article_ids": [
+        "A001",
+        "A002"
+      ],
+      "cited_article_ids": [
+        "A001",
+        "A002"
+      ],
+      "citation_recall": 1.0,
+      "citation_precision": 1.0,
+      "keyword_coverage": 0.667,
+      "abstention_correct": true,
+      "passed": true,
+      "hallucination_flags": [],
+      "answer": "Management said supply of advanced packaging remains the main constraint and expects the constraint to ease gradually during the fourth quarter. [A001] The company increased its 2026 capital-expenditure plan to between $11 billion and $12 billion from $8.5 billion, mainly for graphics processors, networking equipment, and two new data centers. [A002] Aurora also said it signed two multi-year cloud-provider supply agreements but did not disclose customer names or contract values. [A001]"
+    },
+    {
+      "question_id": "Q10",
+      "question": "What was the chief executive's total compensation at GreenGrid Energy?",
+      "expected_article_ids": [],
+      "cited_article_ids": [],
+      "citation_recall": 1.0,
+      "citation_precision": 1.0,
+      "keyword_coverage": 1.0,
+      "abstention_correct": true,
+      "passed": true,
+      "hallucination_flags": [],
+      "answer": "The supplied articles do not provide enough information to answer this question."
+    }
+  ]
+}

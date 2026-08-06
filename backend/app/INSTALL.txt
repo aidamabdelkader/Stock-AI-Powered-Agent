@@ -1,0 +1,33 @@
+Replace these files inside backend/app/:
+
+config.py
+conversation.py
+prompts.py
+llm.py
+service.py
+workflow.py
+ingestion.py
+
+Then restart:
+
+pkill -f uvicorn
+make index
+make api
+
+Azure .env minimum:
+
+LLM_PROVIDER=azure_openai
+AZURE_OPENAI_API_KEY=...
+AZURE_OPENAI_ENDPOINT=https://YOUR-RESOURCE.openai.azure.com/
+AZURE_OPENAI_API_VERSION=2024-10-21
+AZURE_OPENAI_DEPLOYMENT=YOUR-DEPLOYMENT-NAME
+VECTOR_BACKEND=chroma
+EMBEDDING_BACKEND=sentence_transformer
+
+Verify:
+
+curl http://localhost:8000/health
+
+The response must show:
+llm_provider: azure_openai
+model: YOUR-DEPLOYMENT-NAME

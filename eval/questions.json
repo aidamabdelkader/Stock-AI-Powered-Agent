@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "What drove Aurora Microdevices' gross-margin improvement and what full-year growth outlook did it give?",
+      "expected_article_ids": ["A001"],
+      "expected_keywords": ["57%", "accelerator", "14% to 16%"]
+    },
+    {
+      "id": "Q02",
+      "question": "Why did Northstar Cloud reduce its free-cash-flow forecast even though it maintained revenue guidance?",
+      "expected_article_ids": ["A002"],
+      "expected_keywords": ["infrastructure", "$1.4 billion", "20% to 22%"]
+    },
+    {
+      "id": "Q03",
+      "question": "What caused GreenGrid's Seabreeze delay, and how much additional cost does it expect?",
+      "expected_article_ids": ["A003"],
+      "expected_keywords": ["certification test", "$180 million", "January 2028"]
+    },
+    {
+      "id": "Q04",
+      "question": "How did Harbor Retail's inventory, comparable sales, and earnings guidance change?",
+      "expected_article_ids": ["A004"],
+      "expected_keywords": ["declined 9%", "6.1%", "$3.40 to $3.60"]
+    },
+    {
+      "id": "Q05",
+      "question": "What evidence in the articles points to increasing credit risk at Meridian Bank?",
+      "expected_article_ids": ["A005"],
+      "expected_keywords": ["$420 million", "3.8%", "office"]
+    },
+    {
+      "id": "Q06",
+      "question": "Did Vertex Mobility beat delivery guidance, and why was its battery plant delayed?",
+      "expected_article_ids": ["A006"],
+      "expected_keywords": ["86,400", "78,000 to 82,000", "dry-electrode"]
+    },
+    {
+      "id": "Q07",
+      "question": "What were the main results of Cedar Pharma's LUMEN study and when does it plan regulatory submissions?",
+      "expected_article_ids": ["A007"],
+      "expected_keywords": ["48%", "27%", "first quarter of 2027"]
+    },
+    {
+      "id": "Q08",
+      "question": "How did flooding change Stonebridge Mining's copper production and cash-cost guidance?",
+      "expected_article_ids": ["A008"],
+      "expected_keywords": ["710,000 to 740,000", "$1.92 to $2.02", "flooding"]
+    },
+    {
+      "id": "Q09",
+      "question": "Compare the main operational constraints described for Aurora Microdevices and Northstar Cloud.",
+      "expected_article_ids": ["A001", "A002"],
+      "expected_keywords": ["advanced packaging", "infrastructure", "capital-expenditure"]
+    },
+    {
+      "id": "Q10",
+      "question": "What was the chief executive's total compensation at GreenGrid Energy?",
+      "expected_article_ids": [],
+      "expected_keywords": [],
+      "unanswerable": true
+    }
+  ]
+}

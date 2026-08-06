@@ -1,0 +1,7 @@
+Title: FRA Introduces New Disclosure Rules for AI-Based Investment Tools
+
+Egypt's Financial Regulatory Authority (FRA) issued new draft guidelines requiring any platform offering AI-generated investment recommendations to clearly disclose that such outputs do not constitute licensed financial advice, unless the provider holds an appropriate investment advisory license.
+
+The draft rules also require platforms to maintain audit logs of AI-generated recommendations for a minimum of five years, and to implement human review processes for any recommendation that could materially affect a retail investor's portfolio.
+
+The FRA opened a 45-day public comment period before the rules take effect. Industry participants, including several fintech platforms, are expected to submit feedback on implementation timelines and technical requirements.

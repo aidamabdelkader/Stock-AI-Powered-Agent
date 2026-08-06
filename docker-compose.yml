@@ -1,0 +1,31 @@
+services:
+  api:
+    build:
+      context: ./backend
+    env_file:
+      - .env
+    environment:
+      CHROMA_PATH: /data/chroma
+      CORPUS_MANIFEST_PATH: /data/chroma/corpus_manifest.json
+      AUDIT_DB_PATH: /data/audit.db
+      CORS_ORIGINS: http://localhost:5173,http://localhost:3000
+    volumes:
+      - ./data:/data
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  ui:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: http://localhost:8000
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "5173:80"
