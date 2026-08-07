@@ -93,19 +93,27 @@ stock-news-rag-professional/
 │   │   ├── evaluation.py       # Evaluation runner and metrics
 │   │   └── cli.py              # Index, ask, and evaluate commands
 │   └── tests/
+│
 ├── frontend/
-│   └── src/App.jsx             # Chat interface and source cards
+│   └── src/
+│       └── App.jsx             # Chat interface and source cards
+│
 ├── data/
 │   ├── articles/               # Source article files
 │   ├── chroma/                 # Generated vector index
 │   └── audit.db                # Generated audit database
+│
 ├── eval/
 │   ├── questions.json          # Evaluation questions
 │   └── results/                # Generated evaluation reports
+│
 ├── scripts/
-├── .env.example
-├── Makefile
-└── docker-compose.yml
+│
+├── .env.example                # Example environment configuration
+├── AZURE_OPENAI_SETUP.md       # Azure OpenAI setup and deployment instructions
+├── Makefile                    # Shortcuts for setup, index, API, UI, tests, and evaluation
+├── docker-compose.yml          # Containerized application setup
+└── README.md                   # Main project documentation
 ```
 
 ## Prerequisites
@@ -346,7 +354,7 @@ Equivalent command:
 
 ```bash
 cd frontend
-npm run dev
+npm run dev -- --port 5176
 ```
 
 Open:
