@@ -1,2 +1,12 @@
-/.env
-/node_modules
+.env
+backend/.env
+backend/.env.save
+.venv/
+.DS_Store
+frontend/.DS_Store
+
+data/audit.db
+data/chroma/
+
+backend/*.egg-info/
+backend/stock_news_rag.egg-info/
