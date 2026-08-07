@@ -57,6 +57,7 @@ flowchart LR
 9. The generated answer is checked against the exact retrieved article allow-list.
 10. The typed response, retrieval evidence, safety flags, token usage, latency, and validation warnings are written to SQLite.
 
+
 ## Technology stack
 
 | Layer | Technology |
@@ -351,7 +352,7 @@ npm run dev
 Open:
 
 ```text
-http://localhost:5173
+http://localhost:5176
 ```
 
 The UI displays the answer, confidence, latency, safety note, and retrieved source cards. It also supports starting a new chat and exporting the visible conversation.
@@ -547,3 +548,42 @@ make clean     # Remove generated local dependencies and data
 ## Summary
 
 MarketBrief AI demonstrates a practical, auditable RAG architecture for financial-news research. Its main design choice is to keep the workflow controlled: retrieve evidence, generate once, validate deterministically, abstain when grounding fails, and record the complete decision path for later review.
+
+## Resulted Questions 
+
+Question 1 : who are you
+Answer 1: I am a closed-book stock-news research assistant. I retrieve relevant evidence from the indexed article collection, generate a concise answer from that evidence only, validate its citations, and log the request for auditability.
+
+Question 2: Why did the EGX30 index close higher, and what role did banking stocks play in the rally?
+Answer 2:  The EGX30 index closed higher, rising 1.8%, largely due to strong gains in banking stocks such as Commercial International Bank and QNB Alahli. These banks posted notable increases of 3.2% and 2.1%, respectively. The rally was attributed to expectations that the Central Bank of Egypt would keep interest rates unchanged at its upcoming meeting, which eased concerns about pressure on bank profit margins. Overall, banking stocks were the key drivers of the index's upward movement during this session [EGX30-Higher-Close-for-Banking-Stocks-Lead-Gains_ART_01].
+
+Question 3: What factors contributed to Eastern Tobacco's improved quarterly profitability and margin expansion?
+Answer 3: Eastern Tobacco's improved quarterly profitability and margin expansion were driven by higher domestic cigarette prices, stable export volumes to Gulf markets, cost-control measures, and a favorable currency environment. These factors led to an 18% increase in revenue and a rise in gross margin from 29% to 34% compared to the previous year, contributing to a 22% growth in net profit for the quarter. [Eastern-Tobacco-Report-Quartely-Earning_ART_02]
+
+Question 4: How does NileTech plan to use the proceeds from its planned IPO, and what are its expansion objectives?
+Answer 4 : NileTech intends to use the proceeds from its planned IPO on the Egyptian Exchange, which aims to raise around EGP 800 million, primarily for expanding its operations into Saudi Arabia and the UAE. Additionally, the company plans to allocate a portion of the funds toward upgrading its technology infrastructure to support further growth and development in its payments and digital lending business lines. These objectives reflect NileTech's strategy to broaden its regional presence and enhance its technological capabilities following the IPO offering, which is pending regulatory approval. [Fintech-Startup-NileTech-Files-for-EGX-IPO_ART_03]
+
+Question 5: What factors supported the recent stabilization of the Egyptian pound, and what monetary policy expectation is highlighted in the article?
+
+Answer 5: The recent stabilization of the Egyptian pound near EGP 48.5 to the US dollar was supported by improved foreign currency inflows from tourism revenue and remittances, as well as a rise in the Central Bank of Egypt's foreign reserves, which increased to $47.2 billion from $45.8 billion over the past three months. The article also highlights that most analysts expect the Central Bank to keep interest rates unchanged at 27.25% during its upcoming monetary policy meeting, reflecting expectations of a steady policy stance in the near term. [Egyptian-Pound-Stabilization-the-Dollar_ART_04]
+
+Question 6: Why are Egyptian real estate developers experiencing margin pressure despite maintaining strong property sales?
+
+Answer 6: Egyptian real estate developers are experiencing margin pressure primarily due to rising construction costs, with steel and cement prices increasing by 12% and 8% respectively over the past quarter. This increase in input costs is compressing profit margins even though property sales remain strong, as companies have reported record pre-sales and substantial year-over-year growth in new sales contracts. The cost inflation in building materials is offsetting the benefits of robust demand and higher sales volumes, leading to reduced profitability for developers despite their sales performance. [Real-Estate-Stocks-Under-Pressure-as-Construction-Costs-Rise_ART_05]
+
+Question 7: Why did Telecom Egypt announce a special dividend, and why did some analysts remain cautious about the announcement?
+
+Answer 7 : Telecom Egypt announced a special dividend of EGP 3.75 per share, funded by proceeds from its recent sale of a minority stake in its data center subsidiary. While this move resulted in a positive reaction from the market, with shares rising 6.1% on the news, some analysts remained cautious. Their caution stemmed from the view that one-off dividends sourced from asset sales do not indicate a long-term increase in regular dividend payments, and thus may not be a reliable signal for future payouts. [Telecom-Egypt-Special-Dividend-Announcement-article_ART_O6]
+
+Question 8: What new obligations do the FRA's draft AI disclosure rules impose on platforms that provide AI-generated investment recommendations?
+
+Answer 8: The FRA's draft AI disclosure rules require platforms providing AI-generated investment recommendations to clearly disclose that these outputs do not constitute licensed financial advice, unless the provider is properly licensed. Platforms must also keep audit logs of AI-generated recommendations for at least five years and introduce human review processes for any recommendations that could significantly impact a retail investor's portfolio. The rules are currently open for public comment before implementation. [FRA-Introduction-for-New-AI-Disclouser-Rules_ART_07]
+
+Question 9: Why do Naeem Brokerage and EFG Hermes disagree on the outlook for Egyptian banking stocks next quarter?
+Answer 9: Naeem Brokerage and EFG Hermes disagree on the outlook for Egyptian banking stocks next quarter mainly due to differing expectations about interest rate movements and their effects on bank profitability. Naeem Brokerage takes a more optimistic view, highlighting strong net interest margins and improving asset quality as reasons to rate CIB "Overweight." On the other hand, EFG Hermes maintains a "Neutral" stance, cautioning that a potential interest rate cut later in the year could reduce net interest income despite increasing loan growth. Both firms agree that asset quality has strengthened, but their split is rooted in their contrasting assessments of how changes in interest rates will impact bank margins going forward [Analysts-Split-on-Banking-Sector-Outlook-for-Next-Quarter_ART_08].
+
+Question 10: What do you know about the investment in Apple stock ? Would you recommend for me buying CIB stock price and if yes why ?
+Answer 10: The supplied articles provide analysis on CIB (Commercial International Bank) stock but contain no information on Apple stock. Regarding CIB, analysts are divided: Naeem Brokerage rates CIB as 'Overweight' with a price target of EGP 92, citing strong net interest margins and improving asset quality, while EFG Hermes is more cautious with a 'Neutral' rating and a price target of EGP 78, noting concerns that a possible interest rate cut could compress bank margins. Both agree that asset quality at major banks, including CIB, has improved recently. Recent market performance also showed CIB gaining 3.2%, with positive sentiment attributed to expectations that the Central Bank of Egypt will hold rates steady, which could benefit bank margins. Foreign investors have been net buyers of Egyptian equities, including CIB, in recent sessions. However, differing analyst views show that future prospects depend on the Central Bank's rate decisions and the broader economic environment. No recommendation can be made, but these points summarize current analyst outlooks for CIB stock price. [Analysts-Split-on-Banking-Sector-Outlook-for-Next-Quarter_ART_08] [EGX30-Higher-Close-for-Banking-Stocks-Lead-Gains_ART_01]
+
+Question 11: What do you know about the investment in Apple stock
+Answer 11: The supplied articles do not provide enough information to answer this question.
